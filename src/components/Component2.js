@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Spring} from 'react-spring/renderprops' 
+import {Spring} from 'react-spring/renderprops';
 
 export class Component2 extends Component {
     render() {
