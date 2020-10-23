@@ -23,13 +23,13 @@ const Component1 = () => {
             )}
         </Spring>
     )
-}
+};
 
 const c1Style = {
     background: 'steelblue',
     color: 'white',
     padding: '1.5rem'
-}
+};
 
 const counter = {
     background: '#333',
@@ -37,6 +37,6 @@ const counter = {
     width: '100px',
     borderRadius: '50%',
     margin: '1rem auto'
-}
+};
 
 export default Component1
