@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header';
-import Hero from './components/Hero';
-
+import Home from './pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header />
-        <Hero />
-      </div>
+      <Router>
+        <Switch>
+          <Route path='/' component={Home} />
+        </Switch>
+      </Router>
     );
   }
 }
