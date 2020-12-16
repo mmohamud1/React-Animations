@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <Hero image={Image}/>
+            <Hero image={Image} title=''/>
         </>
     )
 }
